@@ -551,24 +551,21 @@
 
 .sec-4-box .box4 .bg {
   background: rgba(0, 0, 0, 0.5);
-  width: 79%;
-  height: 700px;
+  width: 100%;
+  height: 750px;
   position: absolute;
   top: 0%;
   left: 0%;
 }
 .sec-4-box .box5 .bg {
   background: rgba(0, 0, 0, 0.5);
-  width: 79%;
-  height: 700px;
+  width: 100%;
+  height: 742px;
   position: absolute;
   top: 0%;
   left: 0%;
 }
-.sec-4-box .box4 span,
-.sec-4-box .box5 span {
-  left: 40%;
-}
+
 
 /* footer-top */
 .top-box.box1 {
@@ -699,7 +696,7 @@
     margin-left: 40px;
   }
   .sec-4-box .con-box.box6 {
-    margin-left: -140px;
+    margin-left: 10px;
   }
 }
 
@@ -801,9 +798,6 @@
     margin-left: 30px;
   }
 
-  .sec-4-box.box2{
-    justify-content: normal;
-  }
   .sec-4-box #svg {
     width: 437px;
     height: 430px;
@@ -815,26 +809,26 @@
   .sec-4-box span {
     font-size: 1.3rem;
   }
-  .sec-4-box .box4 span,
-  .sec-4-box .box5 span {
-    left: 30%;
-  }
+
   .bg {
     height: 560px;
   }
   .sec-4-box .box3 .bg {
     height: 560px;
   }
-  .sec-4-box .box4 .bg,
+  .sec-4-box .box4 .bg{
+    height: 570px;
+  }
+
   .sec-4-box .box5 .bg {
-    width: 60%;
-    height: 560px;
+    height: 564px;
   }
   .con-box p {
     font-size: 1rem;
   }
   .sec-4-box.box3 .right-box {
-    margin-left: -110px;
+    /* margin-left: -110px; */
+    margin-left: 0;
   }
 
   /* footer */
@@ -936,26 +930,24 @@
   .sec-4-box .box3 .bg {
     height: 500px;
   }
-  .sec-4-box .box4 .bg,
-  .sec-4-box .box5 .bg {
-    width: 52.2%;
-    height: 500px;
+  .sec-4-box .box4 .bg {
+    height: 495px;
+  }
+  .sec-4-box .box5 .bg{
+    height: 490px;
   }
   .sec-4-box .box6 .bg {
     height: 500px;
   }
   .sec-4-box .con-box.box6 {
-    margin-left: -60px;
+    margin-left: 200px;
   }
   .sec-4-box span {
     width: 380px;
   }
-  .sec-4-box .box4 span,
-  .sec-4-box .box5 span {
-    left: 27%;
-  }
+
   .sec-4-box.box3 .right-box {
-    margin-left: -240px;
+    margin-left: -200px;
 }
   /* footer */
   .bottom.bottom{
@@ -1192,20 +1184,17 @@
   .sec-4-box .box6 .bg {
     height: 470px;
   }
-  .sec-4-box .box4 .bg,
+  .sec-4-box .box4 .bg{
+    height: 420px;
+  }
   .sec-4-box .box5 .bg {
     width: 280px;
-    height: 470px;
+    height: 416px;
   }
   .sec-4-box #svg {
     display: none;
   }
-  .sec-4-box .box4 span {
-    left: 48%;
-  }
-  .sec-4-box .box5 span {
-    left: 48%;
-  }
+  
   .sec-4 .left-box {
     margin-right: 25%;
   }
